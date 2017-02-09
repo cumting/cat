@@ -214,23 +214,25 @@ $(window).scroll(function() {
 
 $('.left_bar li:nth-child(2)').hover(function(){
 	$(this).css('background-color','#F6B056').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262');
+	})
+
+})
+$('.left_bar li:nth-child(2)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:1750
 		}, 800);
 		})
-	})
-})
-
 $('.left_bar li:nth-child(3)').hover(function(){
 	$(this).css('background-color','#21ADE9').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262')
+	})
+})
+ $('.left_bar li:nth-child(3)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:2350
 		}, 800);
 		})
-	})
-})
 $('.left_bar li:nth-child(4)').hover(function(){
 	$(this).css('background-color','#2ECCB0').mouseleave(function(){
 		$(this).css('background-color','#626262').click(function(){
@@ -240,56 +242,131 @@ $('.left_bar li:nth-child(4)').hover(function(){
 		})
 	})
 })
-
+$('.left_bar li:nth-child(4)').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:2829
+		}, 800);
+		})
 $('.left_bar li:nth-child(5)').hover(function(){
 	$(this).css('background-color','#72C746').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262')
+	})
+})
+ $('.left_bar li:nth-child(5)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:3429
 		}, 800);
 		})
-	})
-})
 $('.left_bar li:nth-child(6)').hover(function(){
 	$(this).css('background-color','#EB6D97').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262')
+	})
+})
+$('.left_bar li:nth-child(6)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:3929
 		}, 800);
 		})
-	})
-})
-
 $('.left_bar li:nth-child(7)').hover(function(){
 	$(this).css('background-color','#F15453').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262')
+	})
+})
+$('.left_bar li:nth-child(7)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:4420
 		}, 800);
 		})
-	})
-})
-
 $('.left_bar li:nth-child(8)').hover(function(){
 	$(this).css('background-color','#000').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262');
+		
+	})
+})
+$('.left_bar li:nth-child(8)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:4991
 		}, 800);
 		})
-	})
-})
 $('.left_bar li:nth-child(9)').hover(function(){
 	$(this).css('background-color','#000').mouseleave(function(){
-		$(this).css('background-color','#626262').click(function(){
+		$(this).css('background-color','#626262');
+		
+	})
+})
+$('.left_bar li:nth-child(9)').click(function(){
 			$("body,html").stop().animate({
 			scrollTop:5805
 		}, 800);
 		})
-	})
-})
 
+
+$('.left_bar li:nth-child(10),.right_bar .top_pic').click(function(){
+$("body,html").stop().animate({
+			scrollTop:0
+		}, 800);	
+})
 })
 // $(function(){
 // 	alert($(document).scrollTop() );
 // })
+// $(function(){
+//  	alert($('.menu_line .cat_2').index() );
+//  })
+$(function(){
+	$('.menu_line .cat_1').mouseover(function(){
+		$('.cat .cat_1').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_1').fadeOut(500);
+	})
+	$('.menu_line .cat_2').mouseover(function(){
+		$('.cat .cat_2').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_2').fadeOut(500);
+	})
+	$('.menu_line .cat_3').mouseover(function(){
+		$('.cat .cat_3').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_3').fadeOut(500);
+	})
+	$('.menu_line .cat_4').mouseover(function(){
+		$('.cat .cat_4').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_4').fadeOut(500);
+	})
+	$('.menu_line .cat_5').mouseover(function(){
+		$('.cat .cat_5').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_5').fadeOut(500);
+	})
+	$('.menu_line .cat_6').mouseover(function(){
+		$('.cat .cat_6').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_6').fadeOut(500);
+	})
+	$('.menu_line .cat_7').mouseover(function(){
+		$('.cat .cat_7').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_7').fadeOut(500);
+	})
+	$('.menu_line .cat_8').mouseover(function(){
+		$('.cat .cat_8').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_8').fadeOut(500);
+	})
+	$('.menu_line .cat_9').mouseover(function(){
+		$('.cat .cat_9').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_9').fadeOut(500);
+	})
+	$('.menu_line .cat_10').mouseover(function(){
+		$('.cat .cat_10').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_10').fadeOut(500);
+	})
+	$('.menu_line .cat_11').mouseover(function(){
+		$('.cat .cat_11').fadeIn(500);
+	}).mouseleave(function(){
+		$('.cat .cat_11').fadeOut(500);
+	})
+})

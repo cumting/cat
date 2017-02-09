@@ -95,9 +95,9 @@ top: 2px;
 	position: absolute;
 	line-height: 20px;
 	top: 35px;
-	
+	z-index: 3000;
 	color: #999;
-	
+	background-color: #fff;
 	border: 1px solid rgb(242, 242, 242);
 	border-top: 0;
 	display: none;
@@ -194,6 +194,9 @@ top: 2px;
 	background: #000000;
 	z-index: 3;
 
+}
+.right_bar li{
+	cursor: pointer;
 }
 .user_pic {
 	width: 25px;
@@ -434,71 +437,73 @@ left: 20px;
 	width: 42px; height: 42px;
 z-index: -1;
 }
+
 .cat .cat_1{
 	position: absolute;
 	left: 292px;
 	top: 146px;
+		display: none;
 
 }
 .cat .cat_2{
 	position: absolute;
 	left: 412px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_3{
 	position: absolute;
 	left:512px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_4{
 	position: absolute;
 	left: 602px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_5{
 	position: absolute;
 	left: 692px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_6{
 	position: absolute;
 	left: 782px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_7{
 	position: absolute;
 	left: 872px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_8{
 	position: absolute;
 	left: 962px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_9{
 	position: absolute;
 	left: 1052px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_10{
 	position: absolute;
 	left: 1142px;
 	top: 146px;
-
+display: none;
 }
 .cat .cat_11{
 	position: absolute;
 	left: 1232px;
 	top: 146px;
-
+display: none;
 }
 .menu_line .cat_1{
 	
