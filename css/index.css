@@ -148,7 +148,7 @@ top: 2px;
 
 #header_icon .focus{
 	position: absolute;
-	left: 662px;
+	left: 660px;
 	list-style:none;
 	top: 10px;
 
@@ -159,21 +159,21 @@ top: 2px;
 }*/
 #header_icon .cart{
 	position: absolute;
-	left: 763px;
+	left: 757px;
 	list-style:none;
 	top: 8px;
 
 }
 #header_icon .mphone{
 	position: absolute;
-	left: 940px;
+	left: 933px;
 	list-style:none;
 	top: 10px;
 
 }
 #header_icon .guide{
 	position: absolute;
-	left: 1204px;
+	left: 1200px;
 	list-style:none;
 	top: 8px;
 
@@ -679,7 +679,7 @@ bottom: 279px;
 	
 	color: #FFFFFF;
 	padding-top: 6px;
-	
+	cursor: pointer;
 
 }
 .left_ul li:first-child{
@@ -2192,7 +2192,7 @@ font-weight: 400px;
 }
 .footer3>div:nth-child(2){
 width: 90%;
-border: 1px solid pink;
+/*border: 1px solid pink;*/
 height: 100%;
 margin-left: 7%;
 margin-top: -40px;

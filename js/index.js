@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 	$("#my_taobao").hover(function() {
 		$(".mytaobao_detail").show();
 		
@@ -146,3 +146,150 @@ $(function(){
 
                    });  
 });
+
+// 左导航栏
+$(function(){
+
+
+$(window).scroll(function() {
+		var t = $(this).scrollTop();
+		if (1557<=t&&t<2057) {
+			$(".left_bar li:nth-child(2)").css("background-color","#F6B056")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(2)").css("background-color","#626262")
+		};
+		if (2057<=t&&t<2557) {
+			$(".left_bar li:nth-child(3)").css("background-color","#21ADE9")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(3)").css("background-color","#626262")
+		};
+		if (2557<=t&&t<3157) {
+			$(".left_bar li:nth-child(4)").css("background-color","#2ECCB0")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(4)").css("background-color","#626262")
+		};
+		if (3157<=t&&t<3657) {
+			$(".left_bar li:nth-child(5)").css("background-color","#72C746")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(5)").css("background-color","#626262")
+		};
+		if (3657<=t&&t<4157) {
+			$(".left_bar li:nth-child(6)").css("background-color","#EB6D97")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(6)").css("background-color","#626262")
+		};
+		if (4157<=t&&t<4757) {
+			$(".left_bar li:nth-child(7)").css("background-color","#F15453")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(7)").css("background-color","#626262")
+		};
+         if (4757<=t&&t<5557) {
+			$(".left_bar li:nth-child(8)").css("background-color","#DD2727")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(8)").css("background-color","#626262")
+		};
+		 if (5557<=t&&t<6257) {
+			$(".left_bar li:nth-child(9)").css("background-color","#DD2727")
+		}
+		else
+		{
+			$(".left_bar li:nth-child(9)").css("background-color","#626262")
+		};
+		
+	});
+
+$('.left_bar li:nth-child(2)').hover(function(){
+	$(this).css('background-color','#F6B056').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:1750
+		}, 800);
+		})
+	})
+})
+
+$('.left_bar li:nth-child(3)').hover(function(){
+	$(this).css('background-color','#21ADE9').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:2350
+		}, 800);
+		})
+	})
+})
+$('.left_bar li:nth-child(4)').hover(function(){
+	$(this).css('background-color','#2ECCB0').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:2829
+		}, 800);
+		})
+	})
+})
+
+$('.left_bar li:nth-child(5)').hover(function(){
+	$(this).css('background-color','#72C746').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:3429
+		}, 800);
+		})
+	})
+})
+$('.left_bar li:nth-child(6)').hover(function(){
+	$(this).css('background-color','#EB6D97').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:3929
+		}, 800);
+		})
+	})
+})
+
+$('.left_bar li:nth-child(7)').hover(function(){
+	$(this).css('background-color','#F15453').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:4420
+		}, 800);
+		})
+	})
+})
+
+$('.left_bar li:nth-child(8)').hover(function(){
+	$(this).css('background-color','#000').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:4991
+		}, 800);
+		})
+	})
+})
+$('.left_bar li:nth-child(9)').hover(function(){
+	$(this).css('background-color','#000').mouseleave(function(){
+		$(this).css('background-color','#626262').click(function(){
+			$("body,html").stop().animate({
+			scrollTop:5805
+		}, 800);
+		})
+	})
+})
+
+})
+// $(function(){
+// 	alert($(document).scrollTop() );
+// })
