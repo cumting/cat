@@ -198,6 +198,7 @@ top: 2px;
 .right_bar li{
 	cursor: pointer;
 }
+
 .user_pic {
 	width: 25px;
 	height: 25px;
@@ -275,9 +276,86 @@ left: 9px;
 	position: relative;
 	top: -5px;
 }
+.weima{
+		display: none;
+}
+.detail2{
 
+	background-color: #494949;
+	position: fixed;
+	display: none;
+	z-index: 10;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	margin-left: 1215px;
+	margin-top: 87px;
+	cursor: pointer;	
+}
+.detail2.d9{
+	top: 486px;
+}
+.detail2.d7{
+	top: 420px;
+}
+.detail2.d6{
+	top: 340px;
+}
+.detail2.d5{
+	top: 305px;
+}
+.detail2.d4{
+	top: 270px;
+}
+.detail2.d3{
+	top: 229px;
+}
+.detail2.d2{
+	top: 195px;
+}
+.detail2.d1{
+	top: 0px;
+}
+.right_bar2 .weima{
+position: fixed;
+top: 20px;
+z-index: 1002;
+left: 1155px;
+top: 380px;
+}
+.weima .span1{
+	height: 20px;
+	color: #F54239;
+	font-size: 36px;
+position: relative;
+z-index: 11999;
+left: 138px;
+top: 160px;
 
-
+}
+.right_bar2 .weima .img1
+{
+	width: 150px;
+	height: 210px;
+	position: fixed;
+	/*right: 23px;*/
+}
+.right_bar2 .weima .img2
+{
+	position: fixed;
+	top: 420px;
+	left: 1163px;
+}
+.right_bar2 .span{
+	height: 20px;
+	color: #494949;
+	font-size: 36px;
+	margin-top: -37px;
+	margin-left: 78px;
+}
+/*.right_bar*/
 /*搜索框*/
 .header_search img{
 
@@ -757,7 +835,7 @@ background-color: red;
 	filter: alpha(opacity=95);
 	opacity: 0.95;
 	background-color:#EEEEEE;
-	margin-top: -35.7%;
+	margin-top: -37.1%;
 	margin-left: 18.2%;
 }
 .menu_list_1{
@@ -767,10 +845,11 @@ background-color: red;
 	background-color: #FFFFFF
 }
 .menu_list_11{
-	padding-bottom: 28px;
+	padding-bottom: 20px;
 	width: 100%;
 	border-bottom: 2px dashed #E6E6E6;
 	font-size: 14px;
+	line-height: 20px;
 }
 .menu_list_111{
 	width: 70px;
@@ -790,6 +869,9 @@ background-color: red;
 	top: 2px;
 	word-spacing: 10px;
 }
+.menu_list_112 .pink{
+	color: #E98FBD;
+}
 .menu_list_11:first-child{
 	padding-bottom: 20px;
 	/*background-color: red;*/
@@ -798,7 +880,7 @@ background-color: red;
 
 /*二级菜单图片*/
 .menu_list2{
-	display: none;
+	/*display: none;*/
 	
 	position: relative;
 width: 180px;

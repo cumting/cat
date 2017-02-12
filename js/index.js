@@ -20,21 +20,84 @@ $(function(){
         $(".right_bar").show();
     };
      var test = setTimeout(function(){
-        showtime()
+        showtime()	
     },2000);
 })
 
-// 左二级
-// $(document).ready(function(){
-// 	$(".menu_list li:nth-child(1)").hover(function() {
-// 		$(".menu_list_second").stop().fadeToggle();
-		
-// 	});
-// 	$('#menu_list .nvzhuang').mouseleave(function(){
-// 		$('.menu_list_second').hide();
-// 	});
 
-// })
+
+// 右导航栏效果
+$(function(){
+	$('.user_pic').mouseover(function(){
+		$('.right_bar2 .d1').show()
+	});
+	$('.user_pic').mouseleave(function(){
+			$('.right_bar2 .d1').css('display','none');
+		})
+	$('.pay_pic').mouseover(function(){
+		$('.right_bar2 .d2').show()
+	})
+	$('.pay_pic').mouseleave(function(){
+			$('.right_bar2 .d2').hide();
+
+		})
+	$('.heart_pic').mouseover(function(){
+		$('.right_bar2 .d3').show()
+	})
+	$('.heart_pic').mouseleave(function(){
+			$('.right_bar2 .d3').hide();
+		})
+	$('.star_pic').mouseover(function(){
+		$('.right_bar2 .d4').show()
+	})
+	$('.star_pic').mouseleave(function(){
+			$('.right_bar2 .d4').hide();
+		})
+	$('.looked_pic').mouseover(function(){
+		$('.right_bar2 .d5').show()
+	})
+	$('.looked_pic').mouseleave(function(){
+			$('.right_bar2 .d5').hide();
+		})
+	$('.charge_pic').mouseover(function(){
+		$('.right_bar2 .d6').show()
+	})
+	$('.charge_pic').mouseleave(function(){
+			$('.right_bar2 .d6').hide();
+		})
+	$('.feedback_pic').mouseover(function(){
+		$('.right_bar2 .d7').show()
+	})
+	$('.feedback_pic').mouseleave(function(){
+			$('.right_bar2 .d7').hide();
+		})
+	$('.2dcode_pic').mouseover(function(){
+		$('.weima').show()
+	})
+	$(document).click(function(){
+		$('.weima').hide()
+	})
+$('.top_pic').mouseover(function(){
+		$('.right_bar2 .d9').show()
+	})
+	$('.top_pic').mouseleave(function(){
+			$('.right_bar2 .d9').hide();
+		})
+
+})
+// 左二级
+$(function(){
+	$('.menu_list ul li:first-child,.menu_list_second').hover(function(){
+		$('.menu_list_second').show();
+		$('.menu_list ul li:first-child,.menu_list ul li:first-child a').css({"background-color":"#fff","color":"#E98FBD"});
+
+	})
+	$('.menu_list ul li:first-child,.menu_list_second').mouseleave(function(){
+			$('.menu_list_second').hide();
+
+		$('.menu_list ul li:first-child,.menu_list ul li:first-child a').css({"background-color":"#EEEEEE","color":"#2C2C2C"});	
+		});
+})
 
 
 // 轮播
